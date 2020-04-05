@@ -1,0 +1,22 @@
+{
+  "name": "next-rlu-example",
+  "version": "1.0.0",
+  "description": "Example of using Next.JS with react-leaflet-universal",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.6.3",
+    "react-leaflet-universal": "^2.1.1"
+  }
+}
