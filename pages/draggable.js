@@ -36,10 +36,10 @@ export default function DraggableExample() {
           draggable={draggable}
           onDragend={updatePosition}
           position={markerPosition}
-          leafletRef={refMarker}>
+          ref={refMarker}>
           <Popup minWidth={90}>
             <span onClick={toggleDraggable}>
-              {draggable ? 'DRAG MARKER' : 'MARKER FIXED'}
+              {`${draggable ? 'DRAG MARKER' : 'MARKER FIXED'} [${marker.lat}, ${marker.lng}]`}
             </span>
           </Popup>
         </Marker>
